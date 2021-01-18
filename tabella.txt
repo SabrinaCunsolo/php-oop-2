@@ -1,0 +1,13 @@
+1. definire la struttura di una tabella users che contiene i dati degli utenti di un blog
+2. definire una classe User che "mappa" la tabella users
+3. creare alcune istanze della classe User per stampare i dati degli utenti
+Nome repo: php-oop-2
+N.B: NON dovete creare per davvero il database né la tabella
+
+id								INT, PRIMARY KEY (AUTO_INCREMENT, UNIQUE, NOTNULL, INDEX VENGONO ASSEGNATI AUTOMATICAMENTE ALLE COLONNE PRIMARY_KEY)
+nome						    VARCHAR(50), NOT NULL
+cognome						    VARCHAR(50), NOT NULL
+username						VARCHAR(50), NOT NULL, INDEX, UNIQUE
+email							VARCHAR(50), NOT NULL
+password						VARCHAR(50), NOT NULL
+eta								TINYINT, NULL
